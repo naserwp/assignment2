@@ -1,0 +1,292 @@
+*{
+    margin: 0 auto;
+    /* box-sizing: border-box; */
+
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+section {
+    padding: 50px 0;
+    width: 75%;
+}
+p.description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    line-height: 1.5em;
+}
+button {
+    background: #FB900E;
+    border: 0;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 400;
+    padding: 18px 28px;
+    border-radius: 5px;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+.header {
+    background-color: #FFF4E7;
+    padding-bottom: 50px;
+    /* max-width: 1440px;
+    width: 100%; */
+}
+
+.header-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+h2.logo-text {
+    font-size: 45px;
+    color: #131313;
+    font-weight: 700;
+}
+
+nav.nav > ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+nav.nav ul > li > a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #424242;
+    margin-left: 10px;
+    padding: 10px 20px;
+}
+
+
+/**************************************************
+    START CSS > Banner Container TEXT and Images  
+***************************************************/
+
+.banner-text {
+    text-align: center;
+    padding: 100px 0;
+    width: 50%;
+}
+h1.title {
+    color: #131313;
+    font-size: 4rem;
+    line-height: 1.3em;
+    margin-bottom: 25px;
+}
+
+.banner-img {
+    width: 75%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.banner-img img {
+    width: 100%;
+}
+
+
+/**************************************************
+    END > Banner Container CSS 
+***************************************************/
+
+
+
+/**************************************************
+    START CSS > Features Section
+***************************************************/
+section.features-container {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 80px 30px;
+}
+.features-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+h2.features-title {
+    color: #727272;
+    font-size: 48px;
+    font-weight: 500;
+}
+span.color-black {
+    color: #131313;
+    font-weight: 700;
+}
+span.color-org {
+    color: #FF900E;
+    font-weight: 700;
+}
+.features-text p.description {
+    width: 80%;
+    margin: 30px 0 0;
+}
+
+
+/**************************************************
+    START CSS > Experience Section
+***************************************************/
+
+section.experience-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+section.experience-container > div {
+    width: 50%;
+}
+.experience-left {
+    padding-right: 50px;
+}
+.expe-left-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+h2.left-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+.line-org {
+    background: #FF900E;
+    width: 5px;
+    height: 100px;
+}
+.experience-box {
+    margin-top: 38px;
+}
+.single-expereience-box {
+    margin: 20px 0;
+    padding: 30px 35px;
+    box-shadow: 0px 4px 30px rgb(0 0 0 / 6%);
+    border-radius: 8px;
+}
+h3.single-box-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-bottom: 10px;
+}
+img.expereience-images {
+    max-width: 640px;
+    width: 100%;
+}
+.experience-right {
+    position: relative;
+}
+.experience-right button.btn.btn-big-orng {
+    position: absolute;
+    top: 100%;
+    left: -35px;
+    margin-top: -100px;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 1em;
+}
+button p.btn-text {
+    font-size: 16px;
+}
+
+/**************************************************
+    START CSS > Facts Section
+***************************************************/
+h3.section-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+.fact-title p.description, 
+.sponspors-title p.description {
+    margin: 20px 0;
+    width: 40%;
+}
+
+.icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.single-icon-box{
+    border-radius: 8px;
+    padding: 55px 35px;
+    margin: 10px 30px;
+    border: 1px solid #FF900E;
+    text-align: center;
+}
+.single-icon-box img {
+    width: 50px;
+}
+h3.icon-number {
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+}
+p.icon-text {
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+}
+
+
+/**************************************************
+    END CSS > Facts Section
+***************************************************/
+
+
+/**************************************************
+    START CSS > Sponspors Section
+***************************************************/
+section.sponspors-container {
+    text-align: center;
+    margin-top: 40px;
+}
+.sponspors-title p.description {
+    margin: 30px auto;
+}
+.sponspors-brand-images img.brand-img {
+    filter: grayscale(1);
+}
+
+/**************************************************
+    END CSS > Sponspors Section
+***************************************************/
+
+
+
+
+/**************************************************
+    START CSS > Footer Section
+***************************************************/
+footer {
+    background: #FFF4E7;
+    padding: 40px 0;
+    text-align: center;
+}
+p.footer-text {
+    font-size: 20px;
+    color: #424242;
+    font-weight: 400;
+}
+
+/**************************************************
+    END CSS > Footer Section
+***************************************************/
+
+
+
+
+
+
+/**************************************************
+    START CSS > RESPONSIVE CODE
+***************************************************/
