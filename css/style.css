@@ -413,10 +413,7 @@ p.extra-text {
     .logo {
         margin-bottom: 20px;
     }
-    nav.nav > ul,
-    .banner-img,
-    section.features-container,
-    .experience-left {
+    nav.nav > ul, .banner-img, .experience-left {
         padding: 0;
     }
     h1.title {
@@ -433,12 +430,18 @@ p.extra-text {
     section.experience-container {
         width: 90%;
     }
+    section.features-container{
+        padding: 70px 0;
+    }
     .features-text p.description {
         width: 100%;
         margin: 0;
     }
     .features-images {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .features-text, section.facts-container {
+        text-align: center;
     }
     .features-text {
         text-align: center;
@@ -447,7 +450,7 @@ p.extra-text {
     h2.features-title, 
     h2.left-title,
     h3.section-title {
-        font-size: 34px;
+        font-size: 40px;
     }
     .experience-right button.btn.btn-big-orng {
         left: 0;
@@ -455,7 +458,9 @@ p.extra-text {
         position: relative;
         width: 100%;
     }
-
+    section.sponspors-container{
+        margin: 0 auto;
+    }
     .fact-title p.description, .sponspors-title p.description{
         width: 100%;
     }
@@ -468,5 +473,8 @@ p.extra-text {
     }
     .left-continer h3.section-title {
         margin: 10px 0;
+    }
+    .sponspors-brand-images img.brand-img {
+        margin-bottom: 26px;
     }
 }
